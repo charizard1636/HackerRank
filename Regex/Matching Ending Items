@@ -1,0 +1,10 @@
+Task
+Write a RegEx to match a test string, S, under the following conditions:
+
+S should consist of only lowercase and uppercase letters (no numbers or symbols).
+S should end in s.
+
+Result
+Regex_Pattern = '^[a-zA-Z]*s$'
+
+print !!(gets =~ /#{Regex_Pattern}/)
